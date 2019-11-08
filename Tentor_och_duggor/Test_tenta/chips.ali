@@ -1,0 +1,71 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U chips%b		chips.adb		2f9bf696 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D chips.adb		20191030125454 e1bd8ae6 chips%b
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|1r6 1r19 1r44 1r57
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 10|1w23 1r61
+X 7 a-textio.ads
+49K13*Text_IO 471e16 10|1w10 1r48
+73I12*Field{integer}
+166U14*New_Line 10|38s21 57s5
+242U14*Put 10|35s21 37s21 50s5 52s5
+263U14*Put_Line 10|58s5
+X 8 a-tiinio.ads
+56U14*Get 10|9s17[3|18] 51s5[3|18]
+66U14*Put 10|34s21[3|18] 36s21[3|18] 54s5[3|18]
+68i7 Width{7|73I12} 10|34r41[3|18] 36r40[3|18]
+X 10 chips.adb
+3U11*chips 3b11 61l5 61t10
+4A10 Chip_Value_type(integer)<integer> 6r42 8r22 14r58 16r22 30r53 32r22
+. 47r28
+6U15 get_chip 6b15 6<24 11l13 11t21 53s5
+6a24 Chip_Value{4A10} 9m21 9r21
+8i17 I{integer} 9r32
+14U15 Calc_Chip 14b15 14=25 14=37 14=75 27l13 27t22 55s5
+14a25 Chip_Value{4A10} 19r24 20r56
+14a37 Chip_Amount{4A10} 17m17 21m25 21r43
+14i75 Total_Amount{integer} 19r41 20m25 20r41
+16i17 I{integer} 17r29 19r35 20r67 21r37 21r55
+30U15 put_chip 30b15 30>24 30>36 41l13 41t21 59s5
+30a24 Chip_Value{4A10} 36r25
+30a36 Chip_Amount{4A10} 33r20 34r25
+32i17 I{integer} 33r32 34r37 36r36
+47a2 Chip_Value{4A10} 53m14 55m15 55r15 59r14
+47a14 Chip_Amount{4A10} 55m27 55r27 59r26
+48i2 Total_Amount{integer} 51m9 54r9 55m40 55r40
+

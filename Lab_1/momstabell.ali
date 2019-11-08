@@ -1,0 +1,59 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U momstabell%b		momstabell.adb		5142a623 NE OO SU IL KM
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-flteio.ads		20070406091342 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D momstabell.adb	20190912175743 88a51457 momstabell%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|3r6 3r25 4r5 4r24
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 12|3w10 4r9
+X 7 a-textio.ads
+49K13*Text_IO 471e16 12|3w29 4r28
+166U14*New_Line 12|17s5 51s5 55s5 65s5
+242U14*Put 12|19s5 23s5 27s5 31s5 35s5 39s5 43s5 47s5 54s5 56s5
+X 8 a-tiflio.ads
+57U14*Get 12|20s5[3|20] 24s5[3|20] 28s5[3|20] 32s5[3|20] 36s5[3|20] 40s5[3|20]
+. 44s5[3|20] 48s5[3|20]
+68U14*Put 12|68s5[3|20] 70s5[3|20] 72s5[3|20]
+X 12 momstabell.adb
+7U11*momstabell 7b11 91t4
+11f1 F{float} 20m9 22r12 24m9 30r25 63r11 68r9 70r15 72r10 72r12 74m5 74r8
+11f3 L{float} 28m9 30r12 30r22 32m9 63r14
+11f5 S{float} 36m9 38r12 40m9 74r10
+11f7 M{float} 44m9 46r12 48m9 70r10 72r14
+12f1 H{float} 70r12 72r16
+

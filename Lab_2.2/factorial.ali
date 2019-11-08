@@ -1,0 +1,16 @@
+V "GNAT Lib v7"
+P ZX
+
+RN
+RV SPARK_05
+
+U factorial%b		factorial.adb		3d247c54 NE OO SU IL
+
+D factorial.adb		20190922114521 3d247c54 factorial%b
+D system.ads		20170510173650 4635ec04 system%s
+X 1 factorial.adb
+9V11*factorial{integer} 9b11 9>22 23l21 23t30
+9i22 A{integer} 11r23
+11i5 variable{integer} 14r17 16m6 16r17 21r14
+14i9 N{integer} 16r26
+

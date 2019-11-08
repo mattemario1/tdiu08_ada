@@ -1,0 +1,116 @@
+V "GNAT Lib v7"
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U datetime_package%b	datetime_package.adb	94ac4c39 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U datetime_package%s	datetime_package.ads	50858cc3 EE OO PK IL
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-flteio.ads		20070406091342 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D datetime_package.ads	20191004094844 50858cc3 datetime_package%s
+D datetime_package.adb	20191007152233 eb85fb2a datetime_package%b
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 1r45 2r6 2r45 3r6 3r45
+X 3 a-flteio.ads
+20K13*Float_Text_IO[9|46] 13|2w10 2r49
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[10|46] 13|3w10 3r49
+X 8 a-textio.ads
+49K13*Text_IO 471e16 13|1w10 1r49
+73I12*Field{integer}
+206U14*Get 13|13s9 15s9
+242U14*Put 13|36s6 115s7 117s7
+X 10 a-tiinio.ads
+56U14*Get 13|12s9[4|18] 14s9[4|18] 16s9[4|18]
+66U14*Put 13|38s7[4|18] 114s7[4|18]
+68i7 Width{8|73I12} 13|38r18[4|18] 114r24[4|18]
+X 12 datetime_package.ads
+1K9*datetime_package 20E9 27l5 27e21 13|6b14 160l5 160t21
+3R10*date 9r35 12r33 12r46 13r37 13r50 14r31 15r33 16r33 17r33 20c9 25e15
+. 13|8r35 57r33 57r46 59r24 94r37 94r50 95r20 112r31 122r33 132r33 149r33
+5X5*Day_Error 13|28r19
+6X5*Month_Error 13|22r19
+7X5*Year_Error 13|19r19
+9U15*Get 9=19 13|8b15 30l9 30t12
+9r19 Mydate{3R10} 13|8b19 12m13 12r13 14m13 14r13 16m13 16r13 18r12 21r12
+. 21r32 25r43 27r12 27r30
+10U15*Put_Month 10>25 13|33b15 39l9 39t18 116s7 118s7
+10i25 Month{integer} 13|33b25 35r10 38r11
+11V14*Get_Month_Length{integer} 11>31 13|25s26 42b14 54l9 54t25 61s25 103s29
+11i31 input{integer} 13|42b31 44r12
+12V14*Next_Date{3R10} 12>24 13|57b14 91l9 91t18
+12r24 MyDate{3R10} 13|57b24 59r32
+13V14*previous_date{3R10} 13>28 13|94b14 109l9 109t22
+13r28 MyDate{3R10} 13|94b28 95r28
+14U15*Put 14>19 13|112b15 119l9 119t12
+14r19 MyDate{3R10} 13|112b19 114r11 116r17 118r17
+15V15*"="{boolean} 15>18 15>25 13|122b15 129l10 129t12 134s18 153s18
+15r18 date1{3R10} 13|122b18 124r12 124r45 124r80
+15r25 date2{3R10} 13|122b25 124r26 124r60 124r93
+16V15*"<"{boolean} 16>18 16>25 13|132b15 147l10 147t12 152s22
+16r18 date1{3R10} 13|132b18 134r12 136r15 138r15 140r15
+16r25 date2{3R10} 13|132b25 134r20 136r28 138r29 140r27
+17V15*">"{boolean} 17>18 17>25 13|149b15 158l10 158t12
+17r18 date1{3R10} 13|149b18 152r16 153r12
+17r25 date2{3R10} 13|149b25 152r24 153r20
+22i10*Year{integer} 13|12m20 18r19 83m26 83r43 98m22 98r39 114r18 124r18
+. 124r32 136r21 136r34
+23i10*Month{integer} 13|14m20 21r19 21r39 25r50 61r51 68m26 68r44 75m26 75r44
+. 80r28 81m26 86m26 86r44 97r21 99m22 102m22 102r40 103r55 116r24 124r51
+. 124r66 138r21 138r35
+24i10*Day{integer} 13|16m20 27r19 27r37 64r25 65m26 65r42 67m26 71r25 72m26
+. 72r42 74m26 78r25 79m26 79r42 82m26 85m26 97r44 100m22 101r24 103m22 105m22
+. 105r38 118r24 124r86 124r99 140r21 140r33
+X 13 datetime_package.adb
+9e7 Dash{character} 13m13 15m13
+10i7 Month_Length{integer} 25m10 27r43
+58i9 month_length{integer} 61m9 63r12 70r15 77r15
+59r9 tempDate{12|3R10} 61r42 64r16 65m17 65r33 67m17 68m17 68r35 71r16 72m17
+. 72r33 74m17 75m17 75r35 78r16 79m17 79r33 80r19 81m17 82m17 83m17 83r34
+. 85m17 86m17 86r35 90r16
+95r9 tempDate{12|3R10} 97r12 97r35 98m13 98r30 99m13 100m13 101r15 102m13
+. 102r31 103m13 103r46 105m13 105r29 108r16
+150b9 bla{boolean} 152m9 157r20
+

@@ -1,0 +1,75 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U my_friends_car%b	my_friends_car.adb	411a075d NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-flteio.ads		20070406091342 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D my_friends_car.adb	20190922132909 98fdb529 my_friends_car%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 1r25 1r42 5r20
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 12|1w10 5r24
+X 7 a-textio.ads
+49K13*Text_IO 471e16 12|1w29 1r46
+166U14*New_Line 12|47s5 63s5
+242U14*Put 12|10s9 14s13 65s5 70s5 74s5
+263U14*Put_Line 12|67s5 72s5 76s5
+X 8 a-tiflio.ads
+57U14*Get 12|11s12[3|20] 15s16[3|20]
+68U14*Put 12|66s8[3|20] 71s8[3|20] 75s8[3|20]
+X 12 my_friends_car.adb
+3U11*my_friends_car 3b11 80l5 80t19
+5K9 IO=5:24 11r9 15r13 66r5 71r5 75r5
+7U15 put 7b15 7>20 7<36 17l9 17t12 49s5 51s5 53s5 55s5
+7a20 text{string} 10r13 14r17
+7f36 item{float} 11m16 13r15 15m20
+22V14 K_calc{float} 22b14 22>22 22>26 26l8 26t14 57s8
+22f22 S2{float} 25r20
+22f26 T2{float} 25r17
+29V14 T0_calc{float} 29b14 29>22 29>26 29>30 33l9 33t16 59s9
+29f22 T1{float} 32r16
+29f26 S1{float} 32r21
+29f30 K{float} 32r24
+36V14 S3_calc{float} 36b14 36>23 36>27 40l9 40t16 61s9
+36f23 T0{float} 39r18
+36f27 K{float} 39r21
+44f1 S1{float} 49m49 59r21
+44f5 S2{float} 53m45 57r15
+44f9 S3{float} 61m5 75r12
+44f13 T1{float} 51m50 59r17
+44f17 T2{float} 55m49 57r19
+44f21 T0{float} 59m5 61r17 71r12
+44f25 K{float} 57m5 59r25 61r21 66r12
+

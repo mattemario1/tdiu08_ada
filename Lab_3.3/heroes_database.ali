@@ -1,0 +1,112 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U heroes_database%b	heroes_database.adb	37dfc040 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-flteio.ads		20070406091342 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D heroes_database.adb	20191002095319 1873fb90 heroes_database%b
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-imenne.ads		20140225151139 614c06c0 system.img_enum_new%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 1r19 1r40 1r63 1r76 1r97
+X 3 a-flteio.ads
+20K13*Float_Text_IO[9|46] 12|1w44 1r101
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[10|46] 12|1w23 1r80
+X 8 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 1r67
+73I12*Field{integer}
+166U14*New_Line 12|111s13 114s13 117s13 120s13 123s13 126s13
+172V13*End_Of_Line{boolean} 12|52s31
+206U14*Get 12|48s21
+208U14*Put 12|104s21
+242U14*Put 12|81s13 83s13 85s13 87s13 89s13 109s13 112s13 115s13 118s13 121s13
+. 124s13 127s13 128s13
+263U14*Put_Line 12|91s13
+X 9 a-tiflio.ads
+57U14*Get 12|88s13[3|20]
+68U14*Put 12|119s13[3|20]
+X 10 a-tiinio.ads
+56U14*Get 12|84s13[4|18]
+66U14*Put 12|113s13[4|18] 125s13[4|18]
+68i7 Width{8|73I12} 12|113r27[4|18]
+X 12 heroes_database.adb
+5U11*heroes_database 5b11 140l5 140t20
+7A10 char_array(character)<integer> 10r18 47r26
+8R10 string_type 12e19 23r26 25r26 27r26 45r48 101r42
+10a13 char{7A10} 48m40 104r35
+11i13 length{integer} 50m36 103r39
+15E10 available_species_type 15e80 28r26 125r17
+15n37 Human{15E10} 125r44
+15n44 Elf{15E10}
+15n49 Orc{15E10} 136r20
+15n54 Halfling{15E10}
+15n64 Ogre{15E10}
+15n70 Lizardman{15E10}
+16E10 available_eye_colors_type 16e92 29r26
+16n40 Blue{16E10} 137r22
+16n46 Green{16E10}
+16n53 Brown{16E10}
+16n60 Gray{16E10}
+16n66 Yellow{16E10}
+16n74 Red{16E10}
+16n79 Black{16E10}
+16n86 Crazy{16E10}
+21R10 hero_character_sheet_type 30e19 42r29 99r28 132r11
+23r13 name{8R10} 82m27 110r27
+24i13 age{integer} 84m22 113r22
+25r13 sex{8R10} 86m27 116r27
+26f13 whight{float} 88m22 119r22
+27r13 hair_color{8R10} 90m27 122r27
+28e13 species{15E10} 136m11
+29e13 eye_color{16E10} 128r22 137m11
+42U15 get 42b15 42<20 96l13 96t16 135s1
+42r20 hero{21R10} 82m22 82r22 84m17 84r17 86m22 86r22 88m17 88r17 90m22 90r22
+45U19 get_char 45b19 45<29 55l17 55t25 82s13 86s13 90s13
+45r29 the_characters{8R10} 48m25 48r25 50m21
+47i21 I{integer} 48r45 50r44
+99U15 put 99b15 99>20 129l13 129t16 138s1
+99r20 hero{21R10} 110r22 113r17 116r22 119r17 122r22 128r17
+101U19 put_char 101b19 101>29 106l17 106t25 110s13 116s13 122s13
+101r29 the_words{8R10} 103r29 104r25
+103i21 J{integer} 104r40
+132r1 Max_power{21R10} 135m5 136m1 137m1 138r5
+

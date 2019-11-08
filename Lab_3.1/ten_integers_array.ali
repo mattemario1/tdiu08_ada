@@ -1,0 +1,72 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U ten_integers_array%b	ten_integers_array.adb	ea9493ba NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D ten_integers_array.adb  20191002093644 24b2efca ten_integers_array%b
+X 1 ada.ads
+16K9*Ada 20e8 24|1r6 1r27 1r44 8r24
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 24|1w10 8r28
+X 7 a-textio.ads
+49K13*Text_IO 471e16 24|1w31 1r48
+73I12*Field{integer}
+166U14*New_Line 24|23s17 44s17 52s5 57s5 59s5 62s5
+X 8 a-tiinio.ads
+56U14*Get 24|14s20[3|18]
+66U14*Put 24|22s20[3|18] 43s20[3|18] 58s8[3|18] 60s8[3|18]
+68i7 Width{7|73I12} 24|22r35[3|18] 43r36[3|18] 58r17[3|18] 60r19[3|18]
+X 24 ten_integers_array.adb
+6U11*ten_integers_array 6b11 67l5 67t23
+7A10 ten_ints_array_type(integer)<integer> 11r32 13r22 19r31 21r22 28r40
+. 31r22 40r41 42r30 49r9
+8K13 IO=8:28 14r17 22r17 43r17 58r5 60r5
+11U15 get 11b15 11<20 16l9 16t12 53s5
+11a20 numbers{7A10} 14m24 14r24
+13i17 I{integer} 14r32
+19U15 put 19b15 19>20 25l13 25t16 54s5
+19a20 numbers{7A10} 22r24
+21i17 I{integer} 22r32
+28U15 find_maximum 28b15 28>29 28<61 28<66 37l13 37t25 56s5
+28a29 numbers{7A10} 32r25 33r26
+28i61 max{integer} 30m13 32r20 33m21
+28i66 index{integer} 34m21
+31i17 I{integer} 32r33 33r34 34r28
+40U15 reverse_array 40b15 40>30 46l13 46t26 63s5
+40a30 numbers{7A10} 43r24
+42i17 I{integer} 43r32
+48i2 max{integer} 56m26 58r12
+48i7 index{integer} 56m30 60r12
+49a1 numbers{7A10} 53m9 54r9 56r18 63r19
+

@@ -1,0 +1,68 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_RECURSION
+RV SPARK_05
+
+U paper_size%b		Paper_Size.adb		27e7716c NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-flteio.ads		20070406091342 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D Paper_Size.adb	20191030140044 084b4abc paper_size%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r19 1r40 1r64 1r77 1r98
+X 3 a-flteio.ads
+20K13*Float_Text_IO[9|46] 14|1w44 1r102
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[10|46] 14|1w23 1r81
+X 8 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 1r68
+166U14*New_Line 14|27s5
+206U14*Get 14|22s5
+242U14*Put 14|21s5 28s5 30s5 32s5
+X 9 a-tiflio.ads
+68U14*Put 14|29s5[3|20] 31s5[3|20]
+X 10 a-tiinio.ads
+56U14*Get 14|23s5[4|18]
+X 14 Paper_Size.adb
+3U11*Paper_Size 3b11 35l5 35t15
+5U15 calc 5b15 5=20 5=23 5=41 11s17 13l13 13t17 25s5
+5f20 H{float} 8m17 8r22 11m22
+5f23 V{float} 9m17 9r22 11m25
+5i41 Size{integer} 7r16 10m17 10r25 11m28
+16f2 H{float} 25m10 25r10 31r9
+17f2 V{float} 25m13 25r13 29r9
+18i2 Size{integer} 23m9 25m16 25r16
+19e2 a{character} 22m9
+

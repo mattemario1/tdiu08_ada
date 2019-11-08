@@ -1,0 +1,73 @@
+V "GNAT Lib v7"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U undermomstabell%b	undermomstabell.adb	a0e261a6 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-flteio.ads		20070406091342 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D undermomstabell.adb	20190916165708 7905d3d2 undermomstabell%b
+X 1 ada.ads
+16K9*Ada 20e8 24|1r10 1r23 1r46 1r59
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 24|1w27 1r63
+X 7 a-textio.ads
+49K13*Text_IO 471e16 24|1w14 1r50
+166U14*New_Line 24|43s13 69s9
+242U14*Put 24|13s9 17s9 68s9 70s9
+X 8 a-tiflio.ads
+57U14*Get 24|14s9[3|20] 18s9[3|20]
+68U14*Put 24|45s13[3|20] 47s13[3|20] 49s13[3|20]
+X 24 undermomstabell.adb
+6U15*undermomstabell 6b15 97l17 97t32
+9U19 inmatning 9b19 9<30 9>46 9>61 21l21 21t30 89s5 90s5 91s5 92s5
+9f30 item{float} 14m13 16r15 18m13
+9f46 item2{float} 16r21
+9a61 text{string} 13r13 17r13
+24U19 tabell 24b19 24>27 24>33 24>39 24>45 74l21 74t27 93s5
+24f27 item1{float} 72r19
+24f33 item2{float} 72r25
+24f39 item3{float} 72r31
+24f45 item4{float} 72r37
+30U23 rakningar 30b23 30>34 30>36 30>38 30>40 59l25 59t34 72s9
+30f34 F{float} 35r26 47r27
+30f36 L{float} 41r26
+30f38 S{float} 51r26
+30f40 M{float} 47r18 49r30
+35f13 tempF{float} 41r19 45r17 49r18 49r24 51m13 51r20
+83f5 F{float} 89m15 90r17 93r12
+83f7 L{float} 90m15 93r14
+83f9 S{float} 91m15 93r16
+83f11 M{float} 92m15 93r18
+84f5 noll{float} 89r17 91r17 92r17
+

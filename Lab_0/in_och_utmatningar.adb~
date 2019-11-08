@@ -1,0 +1,15 @@
+with Ada.Text_Io;
+with Ada.Integer_Text_IO;
+
+procedure In_Och_Utmatningar is
+   
+   K:Integer;
+   
+   
+begin
+   
+   Ada.Text_Io.Put("Hej på dig världen");
+     
+     
+end
+     
